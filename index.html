@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-content-typempatible" content="ie=edge">
-  <title>Document</title>
+  <title>first html page</title>
+  <!-- NOTE: internal css -->
   <style type="text/css" media="screen">
+    /*this is a css comment */
     body {
-    background-color: #000; color:#fff; font-size: 30px; font-family: 'Comic Sans MS', cursave, sans-sefif; font weght:400;  
-  }
+      background-color: yellow;
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Comic Sans MS', cursave, sans-sefif;
+      font weght: 400;
+    }
+
+    header {
+      background-color: yellow !important;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .main {
+      background-color: orange;
+    }
+
+    #mainID {
+      color: blue;
+    }
+
+    menu ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    menu ul li {
+      display: inline;
+    }
+    }
   </style>
 </head>
 
 <body style="">
-  <div class="wrapper" style="border: 10px solid #2699FB">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="wrapper" style="">
+    <header class="header" role="banner" style="background-color:red;">
+      <div class="logo" role="img">
+        <img src="https://picsum.photos/200" alt="logo">
+      </div>
+      <nav>
+        <menu>
+          <ul>
+            <li>about</li>
+            <li>forms</li>
+            <li>events</li>
+          </ul>
+        </menu>
+      </nav>
+    </header>
+    <main class="main" id="mainID">
+      this is main
+    </main>
+    <footer class="footer">
+      this is the footer
+    </footer>
   </div>
 </body>
+
 </html>
