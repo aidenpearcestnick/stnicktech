@@ -6,42 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-content-typempatible" content="ie=edge">
   <title>first html page</title>
-  <!-- NOTE: internal css -->
-  <style type="text/css" media="screen">
-    /*this is a css comment */
-    body {
-      background-color: yellow;
-      color: #fff;
-      font-size: 16px;
-      font-family: 'Comic Sans MS', cursave, sans-sefif;
-      font weght: 400;
-    }
-
-    header {
-      background-color: yellow !important;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .main {
-      background-color: orange;
-    }
-
-    #mainID {
-      color: blue;
-    }
-
-    menu ul {
-      margin: 0;
-      padding: 0;
-    }
-
-    menu ul li {
-      display: inline;
-    }
-    }
-  </style>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
+<!-- NOTE: internal css -->
 
 <body style="">
   <div class="wrapper" style="">
@@ -60,7 +27,13 @@
       </nav>
     </header>
     <main class="main" id="mainID">
-      this is main
+      <div class="boxes">
+        <div class="box">
+        <h1>box 1</h1>
+        <p>content here</p>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+      </div>
     </main>
     <footer class="footer">
       this is the footer
