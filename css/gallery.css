@@ -9,7 +9,7 @@ text-align: center;
 }
 /*3w  s
 .main .boxes {
-background-color: green;
+background-color: white;
 display: grid;
 justify-content: space-between;
 flex-direction: row;
@@ -35,7 +35,7 @@ display: block;
   */
   .main .boxes {
     display: grid;
-    grid-template-columns: repeat (4,lfr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 2%;
   }
   .main .boxes .box img {
